@@ -15,6 +15,13 @@
   --color-neutral: SLATEGRAY;
   --color-neutral-dark: DARKSLATEGRAY;
 
+  --color-black-opacity-10: rgba(0,0,0,.1);
+
+  --color-purple-dark-x: #43425d;
+
+  --color-light-background: #F0F0F7;
+
+
   /* Shadows */
 
   /* border radius */
@@ -305,6 +312,19 @@ input::placeholder {
     ---
     Website main logo
 */
+.c-app__logo{
+    background-color: var(--);
+}
+
+/*
+    Component: app
+    ---
+    website main app
+*/
+
+.c-app{
+    min-height: 100vh;
+}
 
 /*------------------------------------*\
 #UTILITIES
